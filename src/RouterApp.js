@@ -14,7 +14,6 @@ import { Navbar } from './views/Navbar';
 export const RouterApp = () => {
     return (
         <Router>
-            <div>
                 <Navbar />
                 <Switch>
                     <Route path = '/sobre-mi' component = { About } />
@@ -23,7 +22,6 @@ export const RouterApp = () => {
                     <Route path = '/' component = { Home } />
                     <Redirect to = '/' />
                 </Switch>      
-            </div>
         </Router>        
     )
 }

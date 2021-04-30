@@ -1,5 +1,5 @@
 import React from 'react'
-import { RouterApp } from './Router'
+import { RouterApp } from './RouterApp'
 
 export const App = () => {
     return (

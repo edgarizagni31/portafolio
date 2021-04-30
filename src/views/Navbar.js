@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
+import { NavItem } from '../components/NavItem';
 import '../styles/navbar.css';
 
 export const Navbar = () => {
@@ -7,38 +7,10 @@ export const Navbar = () => {
         <nav className = 'navbar'>
            <h1 className = 'navbar__logo'> &lt;edgarizagni /&gt; </h1> 
            <div className = 'navbar__list'>
-                <NavLink 
-                    exact
-                    activeClassName = 'navbar__item--active' 
-                    className = 'navbar__item' 
-                    to = '/' 
-                >
-                    inicio
-                </NavLink>
-                <NavLink
-                    exact 
-                    activeClassName = 'navbar__item--active' 
-                    className = 'navbar__item' 
-                    to = '/sobre-mi'
-                >
-                    sobre mí
-                </NavLink>
-                <NavLink 
-                    exact
-                    activeClassName = 'navbar__item--active' 
-                    className = 'navbar__item' 
-                    to = '/proyectos'
-                >
-                    proyectos
-                </NavLink>
-                <NavLink 
-                    exact
-                    activeClassName = 'navbar__item--active' 
-                    className = 'navbar__item'  
-                    to = '/contacto'
-                >
-                    contacto
-                </NavLink>
+                <NavItem route = '/' text = 'inicio' />
+                <NavItem route = '/sobre-mi' text = 'sobre mí' />
+                <NavItem route = '/proyectos' text = 'poyectos' />
+                <NavItem route = '/contacto' text = 'contacto'/>
            </div>
         </nav>
     )

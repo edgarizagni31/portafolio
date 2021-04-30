@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 import '../styles/header.css';
 
 export const Home = () => {
@@ -12,7 +12,7 @@ export const Home = () => {
                 nuevas, eso me lleva a estar en constante aprendizaje y crecimiento personal.
                 Me gusta diseñar interfaces y darles una funcionalidad.
            </p>
-           <a className = 'header__btn' href = './sobre-mi'>saber más</a>
+           <Link className = 'header__btn' to = './sobre-mi'>saber más</Link>
         </header>
     )
 }
