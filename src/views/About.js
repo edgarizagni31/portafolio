@@ -1,5 +1,6 @@
 import React from 'react'
-import { SkillsGrid } from '../components/SkillsGrid';
+import { TecGrid } from '../components/TecGrid';
+import { tecs } from '../helpers/tecs'
 
 import '../styles/about.css';
 
@@ -13,8 +14,8 @@ export const About = () => {
                 </p>
             </article>
             <article className = 'about__technologies'>
-                <h2 className = 'about__title'>Habilidades</h2>
-                <SkillsGrid />
+                <h2 className = 'about__title'>Tecnologías</h2>
+                <TecGrid  tecs = { tecs }/>
             </article>
         </section>
     )

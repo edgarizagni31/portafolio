@@ -1,9 +1,11 @@
 import React from 'react'
+import { ProjectsGrid } from '../components/ProjectsGrid'
 
 export const Projects = () => {
     return (
         <div>
-            <h1>Projects</h1>         
+            <h2>Projects</h2>  
+            <ProjectsGrid />       
         </div>
     )
 }

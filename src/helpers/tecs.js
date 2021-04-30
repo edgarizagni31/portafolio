@@ -7,7 +7,7 @@ import jest from '../assets/icons/jest.png';
 import react from '../assets/icons/react.png';
 import git  from '../assets/icons/git.png';
 
-export const skills = [
+export const tecs = [
         {
             id: parseInt( Math.random() * 100 ),
             text: "HTML",

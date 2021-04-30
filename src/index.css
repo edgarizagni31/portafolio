@@ -6,18 +6,18 @@ body {
   width: 100vw;
 }
 
-.skills {
+.tecs {
   display: grid;
   grid-template-columns: repeat(4,90px);
   gap: 30px;
 }
 
-.skill {
+.tec {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.skill__img {
+.tec__img {
   margin-bottom: 10px;
 }

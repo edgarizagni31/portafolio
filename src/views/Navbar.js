@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavItem } from '../components/NavItem';
+
 import '../styles/navbar.css';
 
 export const Navbar = () => {
@@ -9,7 +10,7 @@ export const Navbar = () => {
            <div className = 'navbar__list'>
                 <NavItem route = '/' text = 'inicio' />
                 <NavItem route = '/sobre-mi' text = 'sobre mí' />
-                <NavItem route = '/proyectos' text = 'poyectos' />
+                <NavItem route = '/proyectos' text = 'proyectos' />
                 <NavItem route = '/contacto' text = 'contacto'/>
            </div>
         </nav>
