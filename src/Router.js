@@ -1,0 +1,29 @@
+import React from 'react'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Redirect
+} from 'react-router-dom';
+import { Home } from './views/Home';
+import { About } from './views/About';
+import { Projects } from './views/Projects';
+import { Contact } from './views/Contact';
+import { Navbar } from './views/Navbar';
+
+export const RouterApp = () => {
+    return (
+        <Router>
+            <div>
+                <Navbar />
+                <Switch>
+                    <Route path = '/sobre-mi' component = { About } />
+                    <Route path = '/proyectos' component = { Projects }/>
+                    <Route path = '/contacto' component = { Contact } />
+                    <Route path = '/' component = { Home } />
+                    <Redirect to = '/' />
+                </Switch>      
+            </div>
+        </Router>        
+    )
+}

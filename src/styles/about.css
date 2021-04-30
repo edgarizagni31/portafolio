@@ -1,0 +1,17 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    margin-left: 15%;
+    margin-top: 50px;
+    margin-right: 15%;
+}
+
+.about__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about__desc {
+    line-height: 1.5;
+}
