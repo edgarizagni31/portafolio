@@ -11,16 +11,16 @@
 }
 
 .header__sub {
-    text-transform: uppercase;
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .header__desc {
-   width: 80%; 
    line-height: 1.5;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
+   width: 80%; 
 }
 
 .header__btn {
@@ -30,9 +30,15 @@
     cursor: pointer;
     color: #000000;
     font-size: 14px;
+    font-weight: 500;
     outline: none;
     padding: 10px 32px;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 500;
+}
+
+.header__btn:hover {
+    background-color: initial;
+    border: 1px solid #35BD13;
+    color: #35BD13;
 }
