@@ -10,9 +10,17 @@
     margin-left: 20px;
 }
 
+.navbar__menu {
+    display: none;
+}
+
 .navbar__list {
     position: absolute;
     right: 20px;
+}
+
+.navbar__list--responsive {
+    display: none;
 }
 
 .navbar__item {
@@ -26,4 +34,35 @@
 
 .navbar__item--active {
     color: #35BD13;
+}
+
+@media screen and (max-width: 420px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar__list {
+        display: none;
+    }
+
+    .navbar__list--responsive {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-items: center;
+        align-items: center;
+        position: fixed;
+        z-index: 2;
+        background-color: rgb(50, 50, 61);
+        height: 52px;
+        bottom: 0;
+        width: 100%;
+        margin-top: 20px;
+        left: 0;
+        
+    }
+
+    .navbar__icon {
+        font-size: 30px;
+    }
+
 }
