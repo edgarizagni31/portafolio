@@ -8,7 +8,6 @@ import {
 import { Home } from './views/Home';
 import { About } from './views/About';
 import { Projects } from './views/Projects';
-import { Contact } from './views/Contact';
 import { Navbar } from './views/Navbar';
 
 export const RouterApp = () => {
@@ -18,7 +17,7 @@ export const RouterApp = () => {
                 <Switch>
                     <Route path = '/sobre-mi' component = { About } />
                     <Route path = '/proyectos' component = { Projects }/>
-                    <Route path = '/contacto' component = { Contact } />
+                    <Route path = '/contacto' component = { Home } />
                     <Route path = '/' component = { Home } />
                     <Redirect to = '/' />
                 </Switch>      
