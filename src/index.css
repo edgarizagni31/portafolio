@@ -4,20 +4,5 @@ body {
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
   width: 100vw;
-}
-
-.tecs {
-  display: grid;
-  grid-template-columns: repeat(4,90px);
-  gap: 30px;
-}
-
-.tec {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.tec__img {
-  margin-bottom: 10px;
+  overflow-x: hidden;
 }

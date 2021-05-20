@@ -1,13 +1,21 @@
+import git  from '../assets/icons/git.png';
 import html from '../assets/icons/html.png';
 import pug from '../assets/icons/pug.png';
 import css from '../assets/icons/css.png';
 import sass from '../assets/icons/sass.png';
+import bootstrap from '../assets/icons/bootstrap.png';
 import js from '../assets/icons/js.png';
-import jest from '../assets/icons/jest.png';
 import react from '../assets/icons/react.png';
-import git  from '../assets/icons/git.png';
+import jest from '../assets/icons/jest.png';
+import webpack from '../assets/icons/webpack.png';
+
 
 export const tecs = [
+        {
+            id: parseInt( Math.random() * 100 ),
+            text: "Git",
+            img: git
+        },
         {
             id: parseInt( Math.random() * 100 ),
             text: "HTML",
@@ -25,6 +33,11 @@ export const tecs = [
         },
         {
             id: parseInt( Math.random() * 100 ),
+            text: "Bootstrap",
+            img: bootstrap
+        },
+        {
+            id: parseInt( Math.random() * 100 ),
             text: "SASS",
             img: sass
         },
@@ -35,17 +48,18 @@ export const tecs = [
         },
         {
             id: parseInt( Math.random() * 100 ),
-            text: "Jest",
-            img: jest
-        },
-        {
-            id: parseInt( Math.random() * 100 ),
             text: "React",
             img: react
         },
         {
             id: parseInt( Math.random() * 100 ),
-            text: "Git",
-            img: git
+            text: "Jest",
+            img: jest
+        },
+        {
+            id: parseInt( Math.random() * 100 ),
+            text: "Webpack",
+            img: webpack
+
         }
 ]

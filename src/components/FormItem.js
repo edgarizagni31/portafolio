@@ -10,7 +10,7 @@ export const FormItem = ( { id, title } )  => {
     }
 
     const handleDesactive = () => {
-        if ( input.current.value == "") {
+        if ( input.current.value === "") {
             label.current.classList.remove('contact__label--active');
         }
     }
