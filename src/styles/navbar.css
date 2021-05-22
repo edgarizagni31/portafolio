@@ -6,8 +6,9 @@
 }
 
 .navbar__logo {
-    font-size: 24px;
+    font-size: 32px;
     margin-left: 20px;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 .navbar__menu {
@@ -24,19 +25,19 @@
 }
 
 .navbar__item {
-    text-decoration: none;
     color: #ffffff;
     font-size: 14px;
     font-weight: 500;
     margin-left: 20px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .navbar__item--active {
     color: #35BD13;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
     .navbar {
         width: 100%;
     }
@@ -46,23 +47,23 @@
     }
 
     .navbar__list--responsive {
+        align-items: center;
+        background-color: rgb(50, 50, 61);
+        bottom: 0;
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        justify-items: center;
-        align-items: center;
-        position: fixed;
-        z-index: 2;
-        background-color: rgb(50, 50, 61);
         height: 52px;
-        bottom: 0;
-        width: 100%;
-        margin-top: 20px;
+        justify-items: center;
         left: 0;
-        
+        position: fixed;
+        width: 100%;
+        z-index: 2;
     }
 
+    .navbar__logo {
+        font-size: 24px;
+    }
     .navbar__icon {
         font-size: 30px;
     }
-
 }

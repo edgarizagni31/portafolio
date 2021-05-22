@@ -1,4 +1,3 @@
-import React from 'react'
 import { ProjectsGrid } from '../components/ProjectsGrid'
 
 import '../styles/projects.css';

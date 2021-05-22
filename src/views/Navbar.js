@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavItem } from '../components/NavItem';
-import { FaHome } from 'react-icons/fa';
+import { FaTelegramPlane } from 'react-icons/fa';
 import { BsGrid, BsHouseDoor, BsCardText } from 'react-icons/bs';
 
 import '../styles/navbar.css';
@@ -19,7 +19,7 @@ export const Navbar = () => {
                 <NavItem  route = '/' text = { <BsHouseDoor className = 'navbar__icon'/> } />
                 <NavItem  route = '/sobre-mi' text = { <BsCardText className = 'navbar__icon' /> }/>
                 <NavItem  route = '/proyectos' text = { <BsGrid className = 'navbar__icon' /> }/>
-                <NavItem  route = '/contacto' text = { <FaHome  className = 'navbar__icon' /> }/>
+                <NavItem  route = '/contacto' text = { <FaTelegramPlane className = 'navbar__icon' /> }/>
            </div>
         </nav>
     )

@@ -1,4 +1,3 @@
-import React from 'react'
 import { TecGrid } from '../components/TecGrid';
 import { tecs } from '../helpers/tecs'
 
@@ -10,7 +9,10 @@ export const About = () => {
             <article className = 'about__interests'> 
                 <h2 className = 'about__title'>Intereses</h2>
                 <p className = 'about__desc' >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea maiores odio earum dolore sint ipsam repudiandae, eius repellat asperiores! Dolor saepe sit ex non. Itaque incidunt repellendus laboriosam reprehenderit quo distinctio voluptate quidem dignissimos magni eum beatae ipsum consectetur quod harum ab enim accusamus, quibusdam dolorum minus dolore. Perspiciatis, sit!
+                    Me encanta el desarrollo web estoy muy interesado actualmente en aprender PHP como mi primer 
+                    lenguaje de back end, además conocer más sobre base de datos. <br />
+                    Soy una persona autodidacta, día a día me dedico tiempo en aprender nuevas habilidades
+                    que me ayuden a mejorar como desarrollador.
                 </p>
             </article>
             <article className = 'about__technologies'>

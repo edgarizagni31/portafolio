@@ -2,7 +2,6 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -14,45 +13,14 @@
     text-transform: uppercase;
 }
 
-.contact__form div {
-    position: relative;
-}
-
-.contact__input {
-    border-radius: 8px;
-    background-color: rgb(18, 18, 22);
-    border: 2px solid #ffffff;
-    color: #ffffff;
-    height: 60px;
-    margin-bottom: 30px;
-    outline: none;
-    padding-left: 20px;
-    width: 500px;
-}
-
-.contact__label {
-    font-size: 14px;
-    position: absolute;
-    top: 23px;
-    left: 20px;
-    transition: all .3s;
-}
-
-.contact__label--active {
-    background-color: rgb(18, 18, 22);
-    left: 8px;
-    padding-left: 5px;
-    padding-right: 5px;
-    top: -5px;
-}
-
-.contact__btn {
-    cursor: pointer;
-    background-color: #35BD13;
-    border-width: 0;
-    height: 42px;
+.contact__item {
+    display: flex;
     font-weight: 500;
-    outline: none;
-    text-align: center;
-    width: 100%;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.contact__icon {
+    margin-right: 10px;
+    font-size: 28px;
 }

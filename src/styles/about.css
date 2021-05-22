@@ -3,7 +3,6 @@
     grid-template-columns: repeat(2, 40%);
     gap: 170px;
     margin-left: 10%;
-    margin-top: 80px;
     margin-right: 10%;
 }
 
@@ -33,17 +32,15 @@
   margin-bottom: 10px;
 }
 
-@media screen and ( max-width: 420px) {
+@media screen and ( max-width: 768px) {
     .about {
         grid-template-columns: 1fr;
         gap: 10px;
-        margin-top: 30px;
         padding-bottom: 70px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
-    .about__interests {
-        width: 300px;
-    }
 
     .about__technologies {
         margin-bottom: 20px;
@@ -56,5 +53,12 @@
     .tecs {
         grid-template-columns: repeat(3,1fr);
         gap: 30px;
+    }
+}
+
+@media screen  and ( max-width: 320px ) {
+    .tecs {
+        grid-template-columns: repeat(2,1fr);
+        gap:10px;
     }
 }

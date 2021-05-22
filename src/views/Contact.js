@@ -1,5 +1,6 @@
-import React from 'react'
-import { FormItem } from '../components/FormItem'
+import { ContactItem  } from '../components/ContactItem';
+import  { BsEnvelope } from 'react-icons/bs';
+import { FaGithub,FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 import '../styles/contact.css';
 
@@ -8,13 +9,12 @@ export const Contact = () => {
         <section className = 'contact'>
             <div>
                 <h2 className = 'contact__title'>!hablemos!</h2>   
-                <form className = 'contact__form' >
-                    <FormItem id = 'name' title = 'Nombre' />
-                    <FormItem id = 'email' title = 'Email' />
-                    <FormItem id = 'subject'  title = 'Asunto'/>
-                    <FormItem id = 'message' title = 'Mensaje' />
-                    <button className = 'contact__btn' >Enviar Mensaje</button>
-                </form>    
+                <article className = 'contact__contacts'> 
+                    <ContactItem icon = { <BsEnvelope /> } user =  'eom3108@gmail.com' />
+                    <ContactItem icon = { <FaGithub /> } user =  '@edgarizagni31' />
+                    <ContactItem icon = { <FaInstagram /> } user =  'edgarochoa' />
+                    <ContactItem icon = { <FaLinkedinIn /> } user =  'edgarochoa' />
+                </article>
             </div>
         </section>
     )
