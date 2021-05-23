@@ -20,6 +20,14 @@
     align-items: center;
 }
 
+.contact__text, 
+.contact__text:active
+.contact__text:visited
+.contact__text:link {
+   text-decoration: none;
+   color: #ffffff;
+}
+
 .contact__icon {
     margin-right: 10px;
     font-size: 28px;
