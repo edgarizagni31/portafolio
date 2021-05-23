@@ -24,3 +24,9 @@
     margin-right: 10px;
     font-size: 28px;
 }
+
+@media screen and ( max-width: 772px ) {
+    .contact {
+        padding-bottom: 70px;
+    }
+}
