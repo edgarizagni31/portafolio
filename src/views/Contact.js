@@ -11,9 +11,9 @@ export const Contact = () => {
                 <h2 className = 'contact__title'>!hablemos!</h2>   
                 <article className = 'contact__contacts'> 
                     <ContactItem icon = { <BsEnvelope /> } user =  'eom3108@gmail.com'/>
-                    <ContactItem icon = { <FaGithub /> } user =  '@edgarizagni31'  link = 'https://github.com/edgarizagni31/' />
-                    <ContactItem icon = { <FaInstagram /> } user =  'edgarochoa31'  link = 'https://www.instagram.com/edgarochoa31/'  />
-                    <ContactItem icon = { <FaLinkedinIn /> } user =  'Edgar Ochoa' link = 'https://www.linkedin.com/in/edgar-ochoa-0197581b4/' />
+                    <ContactItem icon = { <FaGithub /> } user =  'Github'  link = 'https://github.com/edgarizagni31/' />
+                    <ContactItem icon = { <FaInstagram /> } user =  'Instagram'  link = 'https://www.instagram.com/edgarochoa31/'  />
+                    <ContactItem icon = { <FaLinkedinIn /> } user =  'Linkedin' link = 'https://www.linkedin.com/in/edgar-ochoa-0197581b4/' />
                 </article>
             </div>
         </section>

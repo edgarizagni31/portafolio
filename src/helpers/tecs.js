@@ -8,7 +8,7 @@ import js from '../assets/icons/js.png';
 import react from '../assets/icons/react.png';
 import jest from '../assets/icons/jest.png';
 import webpack from '../assets/icons/webpack.png';
-
+import gulp from '../assets/icons/gulp.png';
 
 export const tecs = [
         {
@@ -60,6 +60,10 @@ export const tecs = [
             id: parseInt( Math.random() * 100 ),
             text: "Webpack",
             img: webpack
-
+        },
+        {
+            id: parseInt( Math.random() * 100 ),
+            text: "Gulp",
+            img: gulp
         }
 ]

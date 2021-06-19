@@ -18,7 +18,7 @@ export const projects = [
     desc: "Página estática que muestra ciertos datos de una determinada red social.",
     url: "https://socialmediadash.netlify.app",
     repo: "https://github.com/edgarizagni31/social-media-dashboard",
-    tecs: [tecs[1], tecs[3], tecs[6], tecs[9]],
+    tecs: [tecs[2], tecs[3], tecs[6], tecs[9]],
   },
   {
     id: parseInt(Math.random() * 100),
@@ -28,6 +28,14 @@ export const projects = [
     repo: "https://github.com/edgarizagni31/landing-page",
     tecs: [tecs[2], tecs[5], tecs[6], tecs[9]],
   },
+  {
+    id: parseInt(Math.random() * 100),
+    title: 'Rock and EDM Festival',
+    desc: 'Landing page',
+    url: 'https://festival-music75.netlify.app/',
+    repo: 'https://github.com/edgarizagni31/festival-music',
+    tecs: [tecs[1], tecs[5], tecs[6], tecs[10]]
+  }, 
   {
     id: parseInt(Math.random() * 100),
     title: "Expense Tracker",

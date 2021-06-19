@@ -6,3 +6,4 @@ export const ContactItem = ({ link, icon, user }) => {
     </div>
   );
 };
+
