@@ -13,7 +13,7 @@ import { tecs } from "./tecs.js";
 */
 export const projects = [
   {
-    id: parseInt(Math.random() * (25 - 5 + 1) - 5),
+    id: 1,
     title: "Social Media Dashboard",
     desc: "Página estática que muestra ciertos datos de una determinada red social.",
     url: "https://socialmediadash.netlify.app",
@@ -21,7 +21,7 @@ export const projects = [
     tecs: [tecs[2], tecs[3], tecs[6], tecs[9]],
   },
   {
-    id: parseInt(Math.random() * 100),
+    id: 2,
     title: "Loopstudios ",
     desc: "Landing page.",
     url: "https://lp-loopstudios.netlify.app",
@@ -29,15 +29,23 @@ export const projects = [
     tecs: [tecs[2], tecs[5], tecs[6], tecs[9]],
   },
   {
-    id: parseInt(Math.random() * 100),
-    title: 'Rock and EDM Festival',
-    desc: 'Landing page',
-    url: 'https://festival-music75.netlify.app/',
-    repo: 'https://github.com/edgarizagni31/festival-music',
-    tecs: [tecs[1], tecs[5], tecs[6], tecs[10]]
-  }, 
+    id: 3,
+    title: "Rock and EDM Festival",
+    desc: "Landing page",
+    url: "https://festival-music75.netlify.app/",
+    repo: "https://github.com/edgarizagni31/festival-music",
+    tecs: [tecs[1], tecs[5], tecs[6], tecs[10]],
+  },
   {
-    id: parseInt(Math.random() * 100),
+    id: 4,
+    title: "IP tracker",
+    desc: "Localizar ip publicas, ademas se genera un mapa con dicha dirreción",
+    url: "https://iptracker75.netlify.app",
+    repo: "https://github.com/edgarizagni31/ip-tacker",
+    tecs: [tecs[1], tecs[3], tecs[6], tecs[9]],
+  },
+  {
+    id: 5,
     title: "Expense Tracker",
     desc: "Registrar tus gastos e ingresos. Además obtener un resumen de los mismos.",
     url: "https://expense-tracker75.netlify.app",
@@ -45,11 +53,11 @@ export const projects = [
     tecs: [tecs[7], tecs[4], tecs[8]],
   },
   {
-    id: parseInt(Math.random() * 100),
+    id: 6,
     title: "Todo App",
     desc: "Registrar tus tareas, visualizarlas, marcar como completadas y filtrarlas.",
     url: "https://todoapp75.netlify.app",
     repo: "https://github.com/edgarizagni31/TodoApp",
-    tecs: [tecs[7], tecs[3]],
+    tecs: [tecs[7], tecs[3], tecs[8]],
   },
 ];
