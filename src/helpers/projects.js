@@ -39,7 +39,7 @@ export const projects = [
   {
     id: 4,
     title: "IP tracker",
-    desc: "Localizar ip publicas, ademas se genera un mapa con dicha dirreción",
+    desc: "Localizar ip publicas, ademas se genera un mapa con dicha dirección",
     url: "https://iptracker75.netlify.app",
     repo: "https://github.com/edgarizagni31/ip-tacker",
     tecs: [tecs[1], tecs[3], tecs[6], tecs[9]],
